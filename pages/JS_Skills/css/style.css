@@ -1,0 +1,51 @@
+.content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul li{
+    text-align: left;
+    font-size: 120%;
+    color: #97F227;
+}
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 30%
+}
+.content ul li a{
+    color:#11999E;
+    text-decoration: none;
+}
+.content ul li a:hover{
+    color: #1ff9a4;
+    
+}
+h1,h2,h3{
+    color: #366302;
+}
+.content ul li.important{
+    color:#DC143C;
+}
+.content .Nav_Icon .left_image{
+    float: right;
+}
+.copyrights{
+    margin-top: 50px;
+}
+@media only screen and (max-width:411px){
+   .content{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 90%
+}
+    .JS_logo{
+        max-width: 100%
+    }
+    .left_image, .right_image{
+        max-width: 50%
+    }
+    
+}
